@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>HP255</Machine>
+    <WindowsUser>My Laptop</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|ARM</SolutionConfiguration>
+    <PackageArchitecture>arm</PackageArchitecture>
+    <PackageIdentityName>bc799388-af08-4730-9d2e-b64a058c8705</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\My Laptop\Desktop\Hackaton\HowToSurviveCollege\HowToSurviveCollege\HowToSurviveCollege.Windows\obj\ARM\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>A8A4D334BAC709B8FA625A4212D69DD1B52163AA30BC95F9C8F9041CBACDCC2D</RegisteredManifestChecksum>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\My Laptop\Desktop\Hackaton\HowToSurviveCollege\HowToSurviveCollege\HowToSurviveCollege.Windows\bin\ARM\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-11-12T10:24:31.647</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\My Laptop\Desktop\Hackaton\HowToSurviveCollege\HowToSurviveCollege\HowToSurviveCollege.Windows\bin\ARM\Debug\HowToSurviveCollege.Windows.exe">
+      <PackagePath>HowToSurviveCollege.Windows.exe</PackagePath>
+      <Modified>2015-11-12T10:24:30.890</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\My Laptop\Desktop\Hackaton\HowToSurviveCollege\HowToSurviveCollege\HowToSurviveCollege.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T22:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\My Laptop\Desktop\Hackaton\HowToSurviveCollege\HowToSurviveCollege\HowToSurviveCollege.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T22:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\My Laptop\Desktop\Hackaton\HowToSurviveCollege\HowToSurviveCollege\HowToSurviveCollege.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T22:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\My Laptop\Desktop\Hackaton\HowToSurviveCollege\HowToSurviveCollege\HowToSurviveCollege.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T22:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\My Laptop\Desktop\Hackaton\HowToSurviveCollege\HowToSurviveCollege\HowToSurviveCollege.Windows\bin\ARM\Debug\HowToSurviveCollege.Windows.xr.xml">
+      <PackagePath>HowToSurviveCollege.Windows.xr.xml</PackagePath>
+      <Modified>2015-11-12T10:24:29.492</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\My Laptop\Desktop\Hackaton\HowToSurviveCollege\HowToSurviveCollege\HowToSurviveCollege.Windows\bin\ARM\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-11-12T10:24:29.521</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\My Laptop\Desktop\Hackaton\HowToSurviveCollege\HowToSurviveCollege\HowToSurviveCollege.Windows\bin\ARM\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-11-12T10:24:29.523</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\My Laptop\Desktop\Hackaton\HowToSurviveCollege\HowToSurviveCollege\HowToSurviveCollege.Windows\bin\ARM\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-11-12T10:24:31.361</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,155 @@
+﻿<Page
+    x:Class="HowToSurviveCollege.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HowToSurviveCollege"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+  
+
+    <Grid>
+        <Pivot Title="College Survival Guide" Background="#FF08D6D6" FontWeight="Black">
+            <PivotItem x:Name="pvtStart" 
+                       Header="Start">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="340" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock x:Name="tblStart" 
+                                   Text=""
+                                   Margin="10, 5, 10, 0"
+                                   HorizontalAlignment="Left"
+                                   VerticalAlignment="Top"
+                                   TextWrapping="Wrap" 
+                                   FontFamily="TimesNewRoman"
+                                   FontSize="16"
+                                   Grid.Column="0" />
+                    
+                    <StackPanel HorizontalAlignment="Center" 
+                                Height="200" 
+                                VerticalAlignment="Bottom"
+                                Width="300">
+
+                    <HyperlinkButton x:Name="hyprtLink1"
+                                     FontSize="20"
+                                     Content="Galway City Karting"
+                                     NavigateUri="http://www.galwaycitykarting.ie/"/>
+
+                        <HyperlinkButton x:Name="hyprtLink2"
+                                     FontSize="20"
+                                     Content="Eye Cinema"
+                                     NavigateUri="http://www.eyecinema.ie/cinemas/home"/>
+                        
+                        <HyperlinkButton x:Name="hyprtLink3"
+                                     FontSize="20"
+                                     Content="Eyre Square Shopping Center"
+                                     NavigateUri="http://www.eyresquarecentre.com/"/>
+                        
+                        <HyperlinkButton x:Name="hyprtLink4"
+                                     FontSize="20"
+                                     Content="Shop Street   "
+                                     NavigateUri="http://www.galwaytourism.ie/galway-shopping/"/>
+                        
+                    </StackPanel>
+                </Grid>
+            </PivotItem>
+            
+
+            
+
+            <PivotItem x:Name="pvtFood"
+                       Header="Food">
+                <ScrollViewer Width="340" 
+                              HorizontalAlignment="Center"  
+                              VerticalScrollMode="Enabled"
+                              HorizontalScrollMode="Disabled" >
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="340" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock x:Name="tblFood" 
+                                   Text=""
+                                   Margin="10, 5, 10, 0"
+                                   HorizontalAlignment="Left"
+                                   VerticalAlignment="Top"
+                                   TextWrapping="Wrap" 
+                                   FontFamily="TimesNewRoman"
+                                   FontSize="16"
+                                   Grid.Column="0" />
+                    </Grid>
+
+                </ScrollViewer>
+            </PivotItem>
+
+
+            <PivotItem x:Name="pvtAccomodation"
+                       Header="Accomodation">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="340" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock x:Name="tblAccomodation" 
+                                   Text=""
+                                   Margin="10, 5, 10, 0"
+                                   HorizontalAlignment="Left"
+                                   VerticalAlignment="Top"
+                                   TextWrapping="Wrap" 
+                                   FontFamily="TimesNewRoman"
+                                   FontSize="16"
+                                   Grid.Column="0" />
+                </Grid>
+            </PivotItem>
+
+            <PivotItem x:Name="pvtNightLife"
+                       Header="NightLife">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="340" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock x:Name="tblNightLife" 
+                                   Text=""
+                                   Margin="10, 5, 10, 0"
+                                   HorizontalAlignment="Left"
+                                   VerticalAlignment="Top"
+                                   TextWrapping="Wrap" 
+                                   FontFamily="TimesNewRoman"
+                                   FontSize="16"
+                                   Grid.Column="0" />
+                </Grid>
+            </PivotItem>
+
+            <PivotItem x:Name="pvtCollegeServices"
+                       Header="College Services">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="340" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock x:Name="tblCollegeServices" 
+                                   Text=""
+                                   Margin="10, 5, 10, 0"
+                                   HorizontalAlignment="Left"
+                                   VerticalAlignment="Top"
+                                   TextWrapping="Wrap" 
+                                   FontFamily="TimesNewRoman"
+                                   FontSize="16"
+                                   Grid.Column="0" />
+                </Grid>
+            </PivotItem>
+
+        </Pivot>
+    </Grid>
+</Page>
+

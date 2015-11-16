@@ -1,0 +1,1 @@
+C:\Users\My Laptop\Desktop\Hackaton\HowToSurviveCollege\HowToSurviveCollege\HowToSurviveCollege.Windows\HowToSurviveCollege.Windows.csproj;arm
